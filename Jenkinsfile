@@ -14,7 +14,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'npm install'
-                sh 'npm i browserlist'
+                sh 'npm i browserslist'
             }
         }
         stage('Test') {
